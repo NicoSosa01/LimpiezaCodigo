@@ -4,41 +4,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <button id="btn">cambiar color boton</button>
-    <div id="caja" style="width: 200px; height: 200px; background-color: #ccc;"></div>
+    <button id="btn">Cambiar de color boton</button> 
+    <div id="caja"></div> <!--Se elimina la hoja de estilos agregada al id ya que se repite en el css-->
     <script src="script.js"></script>
 </body>
-
-<style>
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-}
-
-button {
-    background-color: #3498db;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px; 
-}
-
-#btn:hover {
-    background-color: #2980b9;
-}
-
-#caja {
-    width: 200px;
-    height: 200px;
-    background-color: #ecf0f1;
-    margin-top: 20px; 
-}
- 
-</style>
+<!--Aqui se mueve de lugar los estilos y se deja en un archivo css que esta enlazado al html -->
 </html>
